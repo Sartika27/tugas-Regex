@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Regex</title>
+  </head>
+
+  <body>
+    <h2>Kuis 1</h2>
+    <p>
+      Buat sebuah program untuk mengecek apakah karakter pertama dalam sebuah
+      string mengandung huruf besar atau tidak.
+    </p>
+    <ul>
+      <li>
+        Jika huruf pertama adalah huruf besar. Program akan
+        menampilkan/console.log ‘Huruf pertama adalah huruf besar’
+      </li>
+      <li>
+        Jika huruf pertama bukan huruf besar. Program akan
+        menampilkan/console.log ‘Huruf pertama adalah huruf kecil’
+      </li>
+    </ul>
+
+    <div id="kotak">
+      <input
+        type="text"
+        id="inputCapital"
+        class="kolom"
+        placeholder="Ketik disini..."
+      />
+      <button id="penceta" class="btn">submit</button>
+      <p id="hasil"></p>
+    </div>
+
+
+  <h2>Kuis 2</h2>
+    <p>Buat sebuah program untuk validasi format nomor hp</p>
+    <ul>
+      <li>Nomor hp minimal 10 digit dan maksimal 12 digit</li>
+      <li>Hanya menerima digit karakter</li>
+    </ul>
+
+    <div id="kotak">
+      <input
+        type="text"
+        id="nomor"
+        class="kolom"
+        pattern="[0-9]"
+        placeholder="Ketik disini..."
+      />
+      <button id="pencetb" class="btn">submit</button>
+    </div>
+
+
+<h2>Kuis 3</h2>
+    <p>
+      Buat sebuah program yang menyediakan kalimat berikut sehingga user
+      mendapatkan pencarian yang persis sama.
+    </p>
+    <ul>
+      <li>Bagaimana cara memulai usaha bisnis</li>
+      <li>Bootcamp impact byte</li>
+      <li>Status covid hari ini</li>
+    </ul>
+
+    <div id="kotak">
+      <input
+        type="text"
+        id="keyword"
+        class="kolom"
+        placeholder="Ketik disini..."
+      />
+      <button id="pencetc" class="btn">submit</button>
+    </div>
+
+  </body>
+</html>
